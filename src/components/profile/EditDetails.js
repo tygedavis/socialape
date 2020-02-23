@@ -10,7 +10,6 @@ import { editUserDetails } from '../../redux/actions/userActions';
 import MyButton from '../../util/MyButton';
 
 //Material UI
-import ToolTip from '@material-ui/core/ToolTip';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
@@ -19,7 +18,6 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
 
 //Icons
-import IconButton from '@material-ui/core/IconButton';
 import EditIcon from '@material-ui/icons/Edit';
 
 const styles = (theme) => ({
