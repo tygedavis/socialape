@@ -68,7 +68,7 @@ class Notifications extends Component{
         const verb = not.type === 'like' ? 'liked' : 'commented on';
         const time = dayjs(not.createdAt).fromNow();
         const iconColor = not.read ? 'primary' : 'secondary'
-        const icon = not.type == 'like' ? (
+        const icon = not.type === 'like' ? (
           <FavoriteIcon color={iconColor} style={{ marginRight: 10 }}/>
         ) : (
           <ChatIcon color={iconColor} style={{ marginRight: 10 }}/>
