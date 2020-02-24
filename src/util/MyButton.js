@@ -1,5 +1,5 @@
 import React from 'react';
-import ToolTip from '@material-ui/core/ToolTip';
+import { ToolTip } from '@material-ui/core/';
 import IconButton from '@material-ui/core/IconButton';
 
 export default ({ children, onClick, tip, btnClassName, tipClassName }) => (
